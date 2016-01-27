@@ -34,13 +34,12 @@ use 2;
 #X obj 445 615 bp~ 11.5 2.3;
 #X obj 118 688 snapshot~;
 #X obj 176 656 metro 3.90625;
-#X obj 239 631 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 239 631 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 445 686 snapshot~;
 #X obj 503 654 metro 3.90625;
-#X obj 566 629 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 566 629 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X text 593 610;
 #X text 559 611 <-- alpha bandpass (center=11.5 \, Q=2.3);
 #X obj 118 723 abs;
 #X obj 445 721 abs;
@@ -75,12 +74,12 @@ R to avoid ever dividing by zero.;
 #X connect 25 0 28 0;
 #X connect 28 0 30 0;
 #X connect 29 0 33 0;
-#X connect 30 0 38 0;
+#X connect 30 0 37 0;
 #X connect 31 0 30 0;
 #X connect 32 0 31 0;
-#X connect 33 0 39 0;
+#X connect 33 0 38 0;
 #X connect 34 0 33 0;
 #X connect 35 0 34 0;
-#X connect 38 0 40 0;
-#X connect 39 0 43 1;
-#X connect 40 0 43 0;
+#X connect 37 0 39 0;
+#X connect 38 0 42 1;
+#X connect 39 0 42 0;
