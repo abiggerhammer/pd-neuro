@@ -8,4 +8,4 @@ dependencies:
 * [Pure Data](http://puredata.info/)
 * [Python](https://www.python.org)
 * [pyOSC](https://pypi.python.org/pypi/pyOSC) (use --pre if installing with pip)
-* the [Mr. Peach](http://puredata.info/downloads/mrpeach) [net](https://svn.code.sf.net/p/pure-data/svn/trunk/externals/mrpeach/net/) and [osc](https://svn.code.sf.net/p/pure-data/svn/trunk/externals/mrpeach/osc/) libraries (pd-mrpeach and pd-mrpeach-net on debian) libraries
+* the [Mr. Peach](http://puredata.info/downloads/mrpeach) [net](https://svn.code.sf.net/p/pure-data/svn/trunk/externals/mrpeach/net/) and [osc](https://svn.code.sf.net/p/pure-data/svn/trunk/externals/mrpeach/osc/) libraries (pd-mrpeach and pd-mrpeach-net on debian)
